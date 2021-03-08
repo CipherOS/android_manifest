@@ -1,4 +1,13 @@
-##Grabbing the source ##
+<img src="https://raw.githubusercontent.com/CipherOS/Documentation/master/art/header.png"/>
+
+
+### Cipher OS ###
+
+CipherOS is a Android Custom OS, Based On AOSP & Fueled by Lineage, Striving to Provide its Users ,
+ A Clean , Bloat free & Sturdy Experience with Minimal Customisation !
+ 
+
+## Grabbing the source ##
 
 [Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
 simplifies using [Git](http://git-scm.com/book) in the context of the Android source.
@@ -54,4 +63,14 @@ $ mka bacon -j8
 ## Contribute toward our Project ##
 
 To submit changes/patches, please send a pull request on GitHub. We will review and merge.
+For More Info About CipherOS ,XDA Thread & Additional Building Instructions, Please [**Go Here !**](https://github.com/CipherOS/Documentation/blob/master/README.md)
 
+Credits
+-------
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**FusionOS**](https://github.com/Fusion-OS)
+ * [**POSP**](https://github.com/POSP)
+ * [**StyxOS**](https://github.com/styx-os)
+ * [**Pixel Experience**](https://github.com/PixelExperience)
+ * And the list never ends.
