@@ -1,63 +1,33 @@
 <img src="https://raw.githubusercontent.com/CipherOS/Documentation/master/art/header.png"/>
 
 
-### Cipher OS ###
+### About Cipher OS ###
 
 CipherOS is a Android Custom OS, Based On AOSP & Fueled by Lineage, Striving to Provide its Users ,
  A Clean , Bloat free & Sturdy Experience with Minimal Customisation !
- 
 
-## Grabbing the source ##
 
-[Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
-simplifies using [Git](http://git-scm.com/book) in the context of the Android source.
-
-### Installing dependencies and Repo ###
-
-Cipher needs several packages to build succesfully !
-```
-sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
-```
-
-Install Repo tool
-```bash
-# Make a directory where Repo will be stored and add it to the path
-$ mkdir ~/bin
-$ PATH=~/bin:$PATH
-# Download Repo itself
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-# Make Repo executable
-$ chmod a+x ~/bin/repo
-```
-
-### Initializing Repo ###
+### Initializing & sync Repo ###
 
 ```bash
-# Create a directory for the source files
-# This can be located anywhere (as long as the fs is case-sensitive)
-$ mkdir cipher
-$ cd cipher
-# Install Repo in the created directory
-$ repo init --depth=1 -u git://github.com/CipherOS/android_manifest.git -b eleven
+# Initialize repo
+repo init -u git://github.com/CipherOS/android_manifest.git -b eleven
+
+# Sync 
+repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
-This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
-first run, it is expected to take a while as it will download all the required Android source files
-and their change histories.
+### Building the ROM ###
 
 ```bash
-# Lets sync 
-$ repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
-```
-
-```bash
-# Go to the root of the source tree.
-$ cd cipher
-# ..and run to prepare our devices list
+# Set up environment 
 $ . build/envsetup.sh
-# .. now run
+
+# Choose a target device 
 $ lunch lineage_($device_codename)-userdebug
-$ mka bacon -j8
+
+# Compile CipherOS 
+$ mka bacon -j$(nproc --all)
 ```
 
 ## Contribute toward our Project ##
