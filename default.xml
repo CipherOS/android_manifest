@@ -41,7 +41,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/lineage/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" />  
-  <project path="external/faceunlock" name="android_external_faceunlock" remote="cipher" />
+  <project path="external/faceunlock" name="CipherOS/android_external_faceunlock" revision="eleven" remote="gitlab"/>
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cipher" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cipher" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="cipher" />
