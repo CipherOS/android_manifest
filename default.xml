@@ -45,6 +45,7 @@
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cipher" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cipher" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="cipher" />
+  <project path="packages/apps/CipherShades" name="android_packages_apps_CipherShades" remote="cipher" />
   <project path="hardware/lineage/interfaces" name="android_hardware_cipher_interfaces" remote="cipher" />  
   <project path="lineage-sdk" name="android_cipher-sdk" remote="cipher" />  
   <project path="packages/apps/LineageParts" name="android_packages_apps_CipherParts" remote="cipher" /> 
@@ -605,7 +606,7 @@
   <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" remote="aosp" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" remote="aosp" />
-  <project path="packages/apps/WallpaperPicker2" name="LineageOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="cipher" />
   <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" remote="aosp" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" remote="aosp" />
