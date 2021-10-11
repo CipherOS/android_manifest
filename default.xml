@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote  name="cipher"
+           fetch="https://github.com/CipherOS"
+           revision="seventeen" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="gitea"
+           fetch="https://gitea.com/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-17.0.0_r1"
            remote="aosp"
            sync-j="4" />
