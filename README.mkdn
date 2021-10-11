@@ -1,0 +1,41 @@
+<img src="https://raw.githubusercontent.com/CipherOS/Documentation/master/art/CipherOS.jpg"/>
+
+
+### About CipherOS ###
+
+CipherOS is a Android Custom OS, Based On AOSP, Striving to Provide its Users,
+A Clean, Bloat free & Sturdy Experience with Minimal Customization.
+
+
+### Initializing & sync Repo ###
+
+```bash
+# Initialize repo
+repo init -u git://github.com/CipherOS/android_manifest.git -b fourteen
+
+# Sync 
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+
+### Building the ROM ###
+
+```bash
+# Set up environment 
+$ . build/envsetup.sh
+
+# Choose a target device 
+$ lunch cipher_($device_codename)-userdebug
+
+# Compile CipherOS 
+$ make bacon -j$(nproc --all)
+```
+
+## Contribute toward our Project ##
+
+To submit changes/patches, please send a pull request on GitHub. We will review and merge.
+For More Info About CipherOS ,XDA Thread & Additional Building Instructions, Please [**Go Here !**](https://github.com/CipherOS/Documentation/blob/master/README.md)
+
+Credits
+-------
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
