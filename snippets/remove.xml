@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+  <!-- external repos -->
+  <remove-project name="platform/external/selinux" />
+
+  <!-- framework repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- packages repos -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+
+  <!-- system repos -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
+
+</manifest>
