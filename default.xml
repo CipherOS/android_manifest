@@ -1111,4 +1111,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- CipherOS changes -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/cipher.xml" />
+
 </manifest>
