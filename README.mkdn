@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/CipherOS/Documentation/master/art/CipherOS7.jpg"/>
+<img src="https://raw.githubusercontent.com/CipherOS/Documentation/master/art/CipherOS7.png"/>
 
 
 ### About CipherOS ###
