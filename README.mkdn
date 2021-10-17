@@ -38,5 +38,6 @@ For More Info About CipherOS ,XDA Thread & Additional Building Instructions, Ple
 Credits
 -------
  * [**AOSP**](https://android.googlesource.com)
+ * [**ArrowOS**](https://github.com/ArrowOS)
  * [**LineageOS**](https://github.com/LineageOS)
  * [**POSP**](https://github.com/PotatoProject)
