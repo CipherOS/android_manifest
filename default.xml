@@ -1032,4 +1032,9 @@
   </project>
   <!-- END open-source projects -->
 
+
+  <!-- CipherOS changes -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/cipher.xml" />
+
 </manifest>
