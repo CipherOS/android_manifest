@@ -1117,6 +1117,7 @@
 
   <!-- CipherOS changes -->
   <include name="snippets/remove.xml" />
+  <include name="snippets/aosp-r.xml" />
   <include name="snippets/arrow.xml" />
   <include name="snippets/cipher.xml" />
 
