@@ -3,6 +3,9 @@
 
   <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
 
+  <!-- external repos -->
+  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
+
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-12.0-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
