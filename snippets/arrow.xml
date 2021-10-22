@@ -87,6 +87,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="arrow" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="arrow" /-->
   <!--project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" /-->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
 
   <!-- packages repos -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
