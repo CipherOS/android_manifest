@@ -91,6 +91,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
 
   <!-- packages repos -->
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
