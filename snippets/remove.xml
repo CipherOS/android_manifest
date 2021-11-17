@@ -102,6 +102,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- system repos -->
