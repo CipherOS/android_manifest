@@ -32,6 +32,7 @@
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cipher" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cipher" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="cipher" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="cipher" />
 
   <!-- hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="cipher" />
