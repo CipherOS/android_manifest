@@ -58,5 +58,6 @@
 
   <!-- vendor repos -->
   <project path="vendor/cipher" name="android_vendor_cipher" remote="cipher" />
+  <project path="vendor/gapps" name="CipherOS/vendor_gapps" remote="gitlab" revision="twelve" clone-depth="1" />
 
 </manifest>
