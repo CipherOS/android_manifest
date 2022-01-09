@@ -41,6 +41,7 @@
 
   <!-- packages repos -->
   <project path="packages/apps/CipherShades" name="android_packages_apps_CipherShades" groups="pdk" remote="cipher" />
+  <project path="packages/apps/CipherWidget" name="android_packages_apps_CipherWidget" groups="pdk" remote="cipher" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk" remote="cipher" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk" remote="cipher" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk" remote="cipher" />
