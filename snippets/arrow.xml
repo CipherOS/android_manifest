@@ -10,6 +10,7 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
   <project path="external/colorkt" name="android_external_colorkt" remote="arrow" />
+  <project path="external/mksh" name="android_external_mksh" remote="arrow" />
   <project path="external/themelib" name="android_external_themelib" remote="arrow" />
   <project path="external/json-c" name="android_external_json-c" remote="arrow" />
 

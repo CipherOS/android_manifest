@@ -70,6 +70,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
