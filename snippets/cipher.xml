@@ -23,6 +23,7 @@
   <project path="device/cipher/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cipher" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="cipher" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="cipher" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="cipher" />
 
   <!-- external repos -->
