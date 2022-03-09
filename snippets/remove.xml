@@ -74,6 +74,7 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/wlan" />
