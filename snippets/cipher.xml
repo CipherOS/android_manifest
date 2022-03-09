@@ -20,6 +20,9 @@
 
   <!-- device repos -->
   <project path="device/cipher/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cipher" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="cipher" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="cipher" />
 
   <!-- external repos -->
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="cipher" />
