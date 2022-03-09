@@ -8,6 +8,7 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="arrow" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
   <project path="external/mksh" name="android_external_mksh" remote="arrow" />
+  <project path="external/json-c" name="android_external_json-c" remote="arrow" />
 
   <!-- hardware repos -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-12.0-caf" />
