@@ -63,6 +63,7 @@
   <!-- system repos -->
   <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="cipher" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cipher" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="cipher" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cipher" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="cipher" />
   <project path="system/update_engine" name="android_system_update_engine" remote="cipher" />
