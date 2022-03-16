@@ -66,6 +66,7 @@
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cipher" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cipher" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="cipher" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="cipher" />
   <project path="system/update_engine" name="android_system_update_engine" remote="cipher" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cipher" />
 
