@@ -41,6 +41,7 @@
   <!-- hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="cipher" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cipher" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="cipher" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="pdk" remote="cipher" />
 
   <!-- packages repos -->
