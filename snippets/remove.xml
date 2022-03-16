@@ -97,6 +97,7 @@
   <remove-project name="platform/packages/modules/Wifi" />
 
   <!-- system repos -->
+  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
