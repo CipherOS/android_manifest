@@ -27,7 +27,7 @@ $ . build/envsetup.sh
 $ lunch cipher_($device_codename)-userdebug
 
 # Compile CipherOS 
-$ make bacon -j$(nproc --all)
+$ mka bacon -j$(nproc --all)
 ```
 
 ## Contribute toward our Project ##
