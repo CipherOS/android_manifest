@@ -19,7 +19,10 @@
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cipher" />
 
   <!-- device repos -->
- <!--  <project path="device/cipher/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" /> -->
+  <project path="device/cipher/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cipher" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="cipher" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="cipher" />
 
   <!-- external repos -->
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="cipher" />
@@ -30,13 +33,13 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="cipher" />
 
   <!-- packages repos -->
-   <!-- <project path="packages/apps/CipherShades" name="android_packages_apps_CipherShades" groups="pdk" remote="cipher" /> -->
+  <!-- <project path="packages/apps/CipherShades" name="android_packages_apps_CipherShades" groups="pdk" remote="cipher" /> -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="cipher" />
   <!--  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" groups="pdk" remote="cipher" /> -->
 
   <!-- system repos -->
   <project path="system/core" name="android_system_core" groups="pdk" remote="cipher" />
-	
+
   <!-- vendor repos -->
   <project path="vendor/cipher" name="android_vendor_cipher" remote="cipher" />
 
