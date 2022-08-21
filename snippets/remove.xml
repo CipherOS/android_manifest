@@ -13,6 +13,11 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
 
+  <!-- hardware -->
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
+
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
 
