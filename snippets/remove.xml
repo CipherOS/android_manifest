@@ -15,14 +15,20 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/sdm845/media" />
 
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- system repos -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
 
 </manifest>
