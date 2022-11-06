@@ -13,6 +13,8 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -24,6 +26,7 @@
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/modules/Wifi" />
 
   <!-- system repos -->
   <remove-project name="platform/system/core" />
