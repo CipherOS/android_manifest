@@ -54,6 +54,7 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="cipher" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="cipher" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cipher" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="cipher" />
 
   <!-- vendor repos -->
   <project path="vendor/cipher" name="android_vendor_cipher" remote="cipher" />
