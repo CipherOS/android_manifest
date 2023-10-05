@@ -32,6 +32,9 @@
   <!-- packages repos -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="cipher" />
 
+  <!-- prebuilt repos -->
+  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="cipher" />
+
   <!-- vendor repos -->
   <project path="vendor/cipher" name="android_vendor_cipher" remote="cipher" />
 
