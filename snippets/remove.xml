@@ -15,5 +15,8 @@
 
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
 </manifest>
