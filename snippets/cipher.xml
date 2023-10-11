@@ -23,6 +23,7 @@
 
   <!-- external repos -->
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="cipher" />
+  <project path="external/cronet" name="CipherOS/android_external_cronet" groups="pdk" remote="gitlab" revision="fourteen" clone-depth="1" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cipher" />
