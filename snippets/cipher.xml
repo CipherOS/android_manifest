@@ -39,6 +39,9 @@
   <!-- prebuilt repos -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="cipher" />
 
+  <!-- system repos -->
+  <project path="system/update_engine" name="android_system_update_engine" remote="cipher" />
+
   <!-- vendor repos -->
   <project path="vendor/cipher" name="android_vendor_cipher" remote="cipher" />
 
