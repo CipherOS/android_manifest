@@ -6,6 +6,7 @@
   <remove-project name="platform/build/soong" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/cronet" />
 
