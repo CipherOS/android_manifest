@@ -22,9 +22,10 @@
   <project path="device/cipher/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" />
 
   <!-- external repos -->
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="cipher" />
-  <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="cipher" />
   <project path="external/cronet" name="CipherOS/android_external_cronet" groups="pdk" remote="gitlab" revision="fourteen" clone-depth="1" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="cipher" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="cipher" />
+  <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="cipher" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cipher" />

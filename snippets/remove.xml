@@ -6,9 +6,10 @@
   <remove-project name="platform/build/soong" />
 
   <!-- external repos -->
-  <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/cronet" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/selinux" />
 
   <!-- framework repos -->
   <remove-project name="platform/frameworks/av" />
