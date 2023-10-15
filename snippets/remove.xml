@@ -15,6 +15,9 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
 
+  <!-- hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Launcher3" />
