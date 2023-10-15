@@ -21,6 +21,7 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- system repos -->
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
 
 </manifest>

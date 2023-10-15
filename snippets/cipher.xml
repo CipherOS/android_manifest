@@ -19,7 +19,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cipher" />
 
   <!-- device repos -->
- <!--  <project path="device/cipher/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" /> -->
+  <project path="device/cipher/sepolicy" name="android_device_cipher_sepolicy" remote="cipher" />
 
   <!-- external repos -->
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="cipher" />
@@ -40,6 +40,7 @@
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="cipher" />
 
   <!-- system repos -->
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="cipher" />
   <project path="system/update_engine" name="android_system_update_engine" remote="cipher" />
 
   <!-- vendor repos -->
