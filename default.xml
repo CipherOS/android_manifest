@@ -267,7 +267,7 @@
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" remote="aosp" />
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" remote="aosp" />
-  <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/libcups" name="LineageOS/android_external_libcups" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libdaemon" name="platform/external/libdaemon" groups="pdk" remote="aosp" />
@@ -453,7 +453,7 @@
   <project path="external/walt" name="platform/external/walt" groups="pdk" remote="aosp" />
   <project path="external/wayland" name="platform/external/wayland" groups="pdk" remote="aosp" />
   <project path="external/wayland-protocols" name="platform/external/wayland-protocols" groups="pdk" remote="aosp" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
+  <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="aosp" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" remote="aosp" />
@@ -627,7 +627,7 @@
   <project path="packages/modules/CaptivePortalLogin" name="LineageOS/android_packages_modules_CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" remote="aosp" />
   <project path="packages/modules/Cronet" name="platform/packages/modules/Cronet" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/modules/DnsResolver" name="LineageOS/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" remote="aosp" />
