@@ -5,6 +5,10 @@
            fetch="https://github.com/CipherOS"
            revision="fourteen" />
 
+  <remote  name="statix"
+           fetch="https://github.com/StatiXOS"
+           revision="udc-qpr1" />
+
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
@@ -1283,5 +1287,6 @@
   <!-- CipherOS changes -->
   <include name="snippets/remove.xml" />
   <include name="snippets/cipher.xml" />
+  <include name="snippets/statix.xml" />
 
 </manifest>
