@@ -24,6 +24,7 @@
 
   <!-- External -->
   <project path="external/json-c" name="android_external_json-c" remote="statix" revision="tm" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="statix" revision="tm" >
