@@ -28,6 +28,7 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
 
   <!-- system repos -->
+  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
