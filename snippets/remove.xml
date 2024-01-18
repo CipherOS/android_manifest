@@ -20,6 +20,7 @@
 
   <!-- hardware -->
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
 
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Settings" />

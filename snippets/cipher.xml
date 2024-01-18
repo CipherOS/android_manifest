@@ -35,6 +35,7 @@
 
   <!-- hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="cipher" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="cipher" />
 
   <!-- packages repos -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="cipher" />
