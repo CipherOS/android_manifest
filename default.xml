@@ -3,7 +3,7 @@
 
   <remote  name="cipher"
            fetch="https://github.com/CipherOS"
-           revision="fourteen" />
+           revision="fourteen-qpr" />
 
   <remote  name="statix"
            fetch="https://github.com/StatiXOS"
