@@ -25,7 +25,7 @@
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr-legacy-um" remote="cipher" revision="fourteen" />
 
   <!-- external repos -->
-  <project path="external/cronet" name="CipherOS/android_external_cronet" groups="pdk" remote="gitlab" revision="fourteen" clone-depth="1" />
+  <project path="external/cronet" name="CipherOS/android_external_cronet" groups="pdk" remote="gitlab" revision="fourteen-qpr" clone-depth="1" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="cipher" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="cipher" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="cipher" />
