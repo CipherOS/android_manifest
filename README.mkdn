@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/CipherOS/Documentation/master/art/CipherOS.jpg"/>
+<img src="https://raw.githubusercontent.com/CipherOS/Documentation/master/art/CipherOS6.png"/>
 
 
 ### About CipherOS ###
@@ -11,7 +11,7 @@ A Clean, Bloat free & Sturdy Experience with Minimal Customization.
 
 ```bash
 # Initialize repo
-repo init -u https://github.com/CipherOS/android_manifest.git -b fourteen
+repo init -u https://github.com/CipherOS/android_manifest.git -b fifteen
 
 # Sync 
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
