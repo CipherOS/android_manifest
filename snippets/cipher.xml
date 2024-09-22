@@ -35,5 +35,6 @@
   <!-- vendor repos -->
   <project path="vendor/cipher" name="android_vendor_cipher" remote="cipher" />
   <project path="vendor/SystemUIClocks" name="android_vendor_SystemUIClocks" remote="cipher" />
+  <project path="vendor/partner_gms" name="CipherOS/vendor_partner-gms" remote="gitea" revision="fifteen" clone-depth="1" />
 
 </manifest>
