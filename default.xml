@@ -8,6 +8,9 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <remote  name="gitea"
+           fetch="https://gitea.com/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
