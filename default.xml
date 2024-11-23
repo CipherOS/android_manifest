@@ -6,7 +6,8 @@
            revision="fifteen" />
 
   <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
+           fetch="https://gitlab.com/"
+           revision="fifteen" />
 
   <remote  name="gitea"
            fetch="https://gitea.com/" />
