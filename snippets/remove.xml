@@ -6,7 +6,6 @@
 
   <!-- framework repos -->
   <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
 
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
