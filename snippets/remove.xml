@@ -15,4 +15,8 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/modules/Connectivity" />
 
+  <!-- system repos -->
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
+
 </manifest>
