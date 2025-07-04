@@ -24,7 +24,7 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 $ . build/envsetup.sh
 
 # Choose a target device 
-$ lunch cipher_($device_codename)-userdebug
+$ lunch cipher_($device_codename)-bp2a-userdebug
 
 # Compile CipherOS 
 $ mka bacon -j$(nproc --all)
